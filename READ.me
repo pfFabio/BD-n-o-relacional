@@ -1,0 +1,37 @@
+#Descrição
+Este projeto é um sistema de gerenciamento de fichas de personagens para jogos de RPG, utilizando Python e MongoDB. Ele permite realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados, como cadastrar novas fichas, buscar, atualizar e deletar.
+
+##Funcionalidades
+O programa oferece um menu interativo com as seguintes opções:
+
+**Cadastrar nova ficha**: Insere um novo documento (ficha de personagem) na coleção, solicitando informações como nome, classe, nível, atributos e habilidades.
+
+**Buscar todas as fichas**: Exibe o nome de todas as fichas cadastradas no banco de dados.
+
+**Buscar uma ficha** específica: Procura e exibe todos os detalhes de uma ficha pelo nome.
+
+**Atualizar uma ficha**: Permite modificar um atributo específico (ex: nível, HP) de uma ficha existente.
+
+**Deletar uma ficha**: Remove uma ficha do banco de dados a partir do nome.
+
+**Sair**: Encerra a execução do programa.
+
+##Requisitos
+- Python 3.x
+
+- Biblioteca pymongo
+
+- Servidor MongoDB rodando na porta padrão (27017)
+
+##Como executar
+Certifique-se de que o MongoDB está instalado e em execução em sua máquina.
+
+Instale a biblioteca pymongo via pip:
+
+**pip install pymongo**
+
+Execute o arquivo main.py a partir do terminal:
+
+**python main.py**
+
+Siga as instruções do menu interativo para interagir com o sistema.
